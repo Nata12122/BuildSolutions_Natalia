@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project name="BuildSolutions-Ant" default="run" basedir=".">
+   <target name="run">
+      <echo message = "Ejecutando el script Python.."/>
+      <exec executable="python3">
+         <arg value="main.py"/>
+         <arg value="5"/>
+      </exec>
+   </target>
+</project>
